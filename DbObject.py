@@ -23,6 +23,10 @@ class DbObject:
     client = pymongo.MongoClient(uri)
     db = client['Toiec']
     
+    def __init__(self) -> None:
+        pass
+    # def __init__(self) -> None:
+    #     pass
     # def __init__(self, tb_name) -> None:        
     #     self.tb_name = tb_name
         
